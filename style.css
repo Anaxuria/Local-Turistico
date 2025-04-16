@@ -11,7 +11,7 @@ body{
 
 main {
     width: 85%;
-    margin: 88px auto;
+    margin: 5.5rem auto;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -24,21 +24,21 @@ main {
 }
 
 .title h1, h2 {
-    font-size: 36px;
+    font-size: 2.25em;
     font-weight: bold;
     color: #1B1B1B;
 }
 
 .subtitle {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     color: #E1624F;
 
 }
 
 p, figcaption{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: regular;
     color: #333333
 }
@@ -49,14 +49,14 @@ figcaption, footer {
 
 img {
     width: 100%;
-    border-radius: 28px;
+    border-radius: 1.75rem;
     margin: 1.5rem 0;
 }
 
 .item img{
-    height: 400px;
+    height: 25rem;
     object-fit: cover;
-    margin-top: 44px;
+    margin-top: 2.75rem;
     margin-bottom: 1.25rem;
 
 }
@@ -96,3 +96,4 @@ li {
 footer span, i {
     color: #333333;
 }
+
