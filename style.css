@@ -54,7 +54,8 @@ img {
 }
 
 .item img{
-    height: 25rem;
+    min-height: 200px;
+    max-height: 25rem;
     object-fit: cover;
     margin-top: 2.75rem;
     margin-bottom: 1.25rem;
